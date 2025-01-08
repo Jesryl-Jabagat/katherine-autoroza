@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kath Florals</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Kath Florals</div>
+        <div class="menu-toggle">
+            <div class="bar"></div>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#collections">Collections</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <button class="custom-signup-btn">Signup</button>
+        </ul>
+    </nav>
+
+
+    <div class="login-container" style="visibility: hidden;">
+        <svg xmlns="http://www.w3.org/2000/svg" id="close-btn" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+        <div class="login-header">
+            <h1>Welcome back</h1>
+            <p>Please enter your details to sign in</p>
+        </div>
+        <form>
+            <div class="form-group">
+                
+                <input type="email" id="email" required placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                
+                <input type="password" id="password" required placeholder="Enter your password">
+            </div>
+            <button type="submit" class="login-button">Sign in</button>
+        </form>
+        
+        <div class="login-footer">
+            <span>Don't have an account?</span>
+            <a href="#" id="signup">Sign up</a>
+            <br>
+            
+            <a href="#">Forgot password?</a>
+        </div>
+    </div>
+  
+    <div class="signup-container" style="visibility: hidden;">
+      <svg xmlns="http://www.w3.org/2000/svg" id="close-btn1" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+      <div class="signup-header">
+          <h1>Join with us</h1>
+          <p>Please enter your details to sign up</p>
+      </div>
+      <form>
+          <div class="form-group">
+              
+              <input type="email" id="email" required placeholder="Enter your email">
+          </div>
+          <div class="form-group">
+             
+              <input type="password" id="password" required placeholder="Enter your password">
+          </div>
+          <div class="form-group">
+            
+            <input type="password" id="password" required placeholder="Confirm your password">
+          </div>
+          <button type="submit" class="signup-button">Sign up</button>
+      </form>
+      <div class="signup-footer">
+          <span>Already have an account?</span>
+          <a href="#" id="signin">Sign in</a>
+          
+          
+        
+      </div>
+  </div>
+
+
+
+
+    <section id="home">
+        <div class="hero-slider">
+            <div class="slide active">
+                <div class="content">
+                    <h1>Artisanal Floral Design</h1>
+                    <p>Crafting moments of natural beauty</p>
+                    <a href="#collections" class="btn">Explore Collections</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="collections">
+        <div class="section-header">
+            <span>Our Work</span>
+            <h2>Signature Collections</h2>
+        </div>
+        <div class="collection-grid">
+            <div class="collection-item">
+                <img src="season.avif" alt="Seasonal">
+                <div class="overlay">
+                    <h3>Seasonal</h3>
+                    <p>Nature's finest, curated by season</p>
+                </div>
+            </div>
+            <div class="collection-item">
+                <img src="bridal.jpg" alt="Bridal">
+                <div class="overlay">
+                    <h3>Bridal</h3>
+                    <p>Timeless elegance for your special day</p>
+                </div>
+            </div>
+            <div class="collection-item">
+                <img src="flower.avif" alt="Events">
+                <div class="overlay">
+                    <h3>Events</h3>
+                    <p>Bespoke arrangements for any occasion</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-grid">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1533090368676-1fd25485db88?auto=format&fit=crop&w=800&q=80" alt="Our Studio">
+            </div>
+            <div class="about-content">
+                <span>Our Story</span>
+                <h2>Modern Floristry with Traditional Values</h2>
+                <p>Founded in 2020, Flora & Bloom brings contemporary design sensibilities to traditional floristry. Each arrangement is thoughtfully crafted to capture the essence of nature's beauty.</p>
+                <div class="stats">
+                    <div class="stat">
+                        <span>2K+</span>
+                        <p>Arrangements Created</p>
+                    </div>
+                    <div class="stat">
+                        <span>500+</span>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div class="stat">
+                        <span>50+</span>
+                        <p>Event Partners</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <span>Get in Touch</span>
+                <h2>Let's Create Something Beautiful</h2>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>Visit Us</h3>
+                        <p>15 Garden Avenue, Design District</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3>Call Us</h3>
+                        <p>(555) 123-4567</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email Us</h3>
+                        <p>hello@floraandbloom.com</p>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" required>
+                    <label>Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea required></textarea>
+                    <label>Message</label>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>Flora & Bloom</h3>
+                <p>Artisanal floral design studio crafting beautiful moments through nature's finest blooms.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#collections">Collections</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Flora & Bloom. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
